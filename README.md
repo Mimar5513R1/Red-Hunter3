@@ -1,127 +1,176 @@
-# **Red Hunter** 🚀 - Le Scanner de Vulnérabilités Web de Nouvelle Génération
+# **Red Hunter3** 🚀🔍
 
-## **Introduction** 🌟
-**Red Hunter** est l'outil de choix pour la sécurité web moderne, combinant puissance, précision et sophistication. Conçu en **Python**, **Red Hunter** est l’ultime solution pour détecter les vulnérabilités web avec une efficacité sans précédent. Grâce à une interface utilisateur élégante et à des fonctionnalités avancées, **Red Hunter** se distingue comme le scanner de vulnérabilités le plus complet et le plus à la pointe de la technologie.
+## **📜 LISEZ-MOI**
 
----
+### **Licence** ⚠️
 
-## **Fonctionnalités Exceptionnelles** 🌐
-
-### **Détection de Vulnérabilités de Pointe**
-- **Injection SQL (SQLi)** : Détection avancée des failles SQL pour prévenir les intrusions malveillantes.  
-  Exemple :  
-  ```sql
-  ' OR '1'='1'; --
-  ```
-
-- **Cross-Site Scripting (XSS)** : Identification des vulnérabilités permettant l'injection de scripts dangereux.  
-  Exemple :  
-  ```html
-  <script>alert('XSS');</script>
-  ```
-
-- **Inclusions de Fichiers (LFI/RFI)** : Accès sécurisé et détection des inclusions de fichiers non autorisées.
-
-- **Cross-Site Request Forgery (CSRF)** : Analyse approfondie pour prévenir la falsification de requêtes.
-
-- **Attaques par Force Brute** : Identification des points d’entrée vulnérables aux attaques de force brute.
-
-- **Fuites d’Informations Sensibles** : Détection des données sensibles exposées dans les en-têtes HTTP.
-
-- **Failles Zero-Day** : Analyse comportementale avancée pour repérer les vulnérabilités inconnues.
-
-### **Support Technologique Innovant**
-- **Applications SPA** : Analyse des frameworks modernes tels que **React**, **Angular**, et **Vue.js**.
-- **API** : Support étendu pour REST, SOAP, et **GraphQL**.
-- **WebSockets** : Détection en temps réel des vulnérabilités dans les communications WebSocket.
-
-### **Modes de Scan Avancés**
-- **Scan Complet** : Analyse exhaustive de toutes les fonctionnalités de l’application.
-- **Scan Ciblé** : Focus sur les éléments critiques comme les formulaires de connexion et les API.
-- **Scan Furtif** : Mode discret pour échapper aux systèmes de détection d'intrusion (IDS/IPS).
-- **Scan des Sous-Domaines** : Découverte et analyse des sous-domaines pour une visibilité accrue.
-
-### **Architecture Modulaire**
-- **Extension Facile** : Ajouter des modules personnalisés pour une personnalisation optimale.  
-  - Modules Inclus :
-    - **Scanner SQL Injection**
-    - **Scanner XSS**
-    - **Scanner LFI/RFI**
-    - **Scanner CSRF**
-    - **Vérification des Certificats SSL**
-    - **Analyse des En-Têtes de Sécurité**
-
-### **Rapports Dynamiques**
-- **Rapports Détaillés** : Informations complètes sur chaque vulnérabilité détectée avec des recommandations précises.
-- **Formats Variés** : Exportation des résultats en **PDF**, **HTML**, et **JSON** pour s’adapter à tous vos besoins.
+**IMPORTANT** : **Red Hunter3** est destiné **uniquement à des fins éducatives**. Veuillez vous conformer aux lois en vigueur dans votre pays. L'utilisation de cet outil pour des activités illégales est strictement interdite. Vous êtes entièrement responsable de son utilisation.
 
 ---
 
-## **Pourquoi **Red Hunter** est Inégalé ?** 🌟
+⭐ **Appréciez notre travail ? Offrez-nous une étoile pour soutenir le projet !** ⭐
 
-- **Technologie de Pointe** : Des techniques de scan avancées pour une détection inégalée.
-- **Interface Moderne** : Conception élégante et intuitive pour une expérience utilisateur fluide.
-- **Extensibilité** : Ajoutez facilement des modules et personnalisez les fonctionnalités.
-- **Rapports Professionnels** : Des rapports détaillés, adaptés aux exigences des équipes de sécurité et des clients.
+## **📝 Description**
 
----
+**Red Hunter3** est un **outil de sécurité web** puissant et innovant, développé en **Python** 🐍, conçu pour offrir une analyse approfondie des vulnérabilités des sites web. Grâce à ses fonctionnalités avancées et son interface intuitive, il facilite la détection des failles et le renforcement de la sécurité de vos sites.
 
-## **Installation Simplifiée** 🔧
-
-1. **Clonez le Référentiel** :
-   ```bash
-   git clone https://github.com/yourusername/redhunter.git
-   cd redhunter
-   ```
-
-2. **Installez les Dépendances** :
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Configurez** :
-   Modifiez le fichier `config.yml` selon vos préférences.
+- **Multiplateforme** : Fonctionne sur **Windows** 🪟 et **Linux** 🐧.
+- **Open Source** : Code source accessible pour vérification et personnalisation.
+- **Sécurisé** : Aucune présence de malware ou backdoor.
+- **Mises à jour fréquentes** 🔄 : Intégration continue des dernières méthodes de sécurité.
+- **Gratuit** : Accessible à tous sans frais.
 
 ---
 
-## **Commandes Clés** 🚀
+## **✨ Fonctionnalités Avancées**
 
-- **Scan Complet** :
-  ```bash
-  redhunter scan --target http://example.com --scan full
-  ```
+### **🔍 Analyse Complète des Vulnérabilités**
 
-- **Scan Rapide** :
-  ```bash
-  redhunter scan --target http://example.com --scan quick
-  ```
+- **Scan de Vulnérabilités Web** 🌐 :
+  - **Injection SQL** : Détection des failles permettant l'exécution de requêtes non sécurisées.
+  - **Cross-Site Scripting (XSS)** : Identification des vulnérabilités permettant l'exécution de scripts malveillants.
+  - **Failles de Sécurité** : Détection des erreurs de configuration et des problèmes d'authentification.
 
-- **Scan Furtif** :
-  ```bash
-  redhunter scan --target http://example.com --scan stealth
-  ```
+- **Scan de Ports et Services** 🚪 :
+  - Identification des ports ouverts et des services actifs pour détecter les vecteurs d'attaque potentiels.
+
+- **Analyse des Cookies et Sessions** 🍪 :
+  - Vérification des paramètres de sécurité des cookies et des sessions pour détecter les failles potentielles.
+
+### **🛡️ Tests de Sécurité Avancés**
+
+- **Tests d'Injection SQL** 🔍 :
+  - Analyse approfondie pour détecter les vulnérabilités SQL et fournir des recommandations pour renforcer les bases de données.
+
+- **Analyse des Failles XSS** 🧪 :
+  - Détection des failles Cross-Site Scripting et des vulnérabilités associées aux scripts injectés.
+
+- **Analyse des Configurations de Sécurité** 🔧 :
+  - Vérification des configurations du serveur web pour identifier les erreurs de configuration.
+
+- **Analyse de l'Authentification** 🔐 :
+  - Vérification de la robustesse des mécanismes d'authentification et de gestion des sessions.
+
+### **📊 Rapports Dynamiques et Personnalisables**
+
+- **Rapports Détaillés** 📄 :
+  - Génération de rapports complets avec des descriptions détaillées des vulnérabilités, les risques associés et les recommandations pour remédier aux problèmes.
+
+- **Formats d'Exportation** 📥 :
+  - Exportation des résultats en **PDF**, **HTML**, et **JSON** pour une consultation facile et un partage efficace.
+
+- **Tableaux de Bord Interactifs** 📊 :
+  - Visualisation graphique des vulnérabilités détectées et des statistiques pour une analyse rapide et intuitive.
+
+- **Comparaison de Rapports** 🔄 :
+  - Comparaison des résultats de différents scans pour évaluer les améliorations ou détecter de nouvelles vulnérabilités.
+
+### **🔄 Modes de Scan Avancés**
+
+- **Scan Complet** 🔍 :
+  - Analyse exhaustive de la sécurité du site web pour une évaluation globale.
+
+- **Scan Ciblé** 🎯 :
+  - Évaluation rapide des zones critiques spécifiées pour une analyse ciblée.
+
+- **Scan Furtif** 👻 :
+  - Mode discret pour minimiser la détection par les systèmes de surveillance.
+
+- **Scan Automatisé** 🔁 :
+  - Configuration pour des scans automatisés à des intervalles réguliers pour une surveillance continue.
+
+### **🛠️ Outils Complémentaires**
+
+- **Analyse des Interférences de Sécurité** 🛡️ :
+  - Détection et optimisation des interférences de sécurité pour une protection renforcée.
+
+- **Génération Automatisée de Rapports** 📈 :
+  - Création automatique de rapports après chaque scan pour une documentation facile et rapide.
+
+- **Alertes en Temps Réel** 🚨 :
+  - Notifications instantanées pour les vulnérabilités critiques détectées afin de réagir rapidement.
+
+- **Analyse de la Surface d'Attaque** 🌍 :
+  - Identification des vecteurs d'attaque en examinant la surface d'attaque globale du site web.
 
 ---
 
-## **Contribuer** 🤝
-Vous souhaitez participer à **Red Hunter** ? Voici comment :
-1. **Forkez** le Référentiel sur GitHub.
-2. **Clonez** votre fork.
-   ```bash
-   git clone https://github.com/yourusername/redhunter.git
-   ```
-3. **Créez une Branche** pour vos modifications.
-   ```bash
-   git checkout -b feature/new-feature
-   ```
-4. **Apportez vos Modifications**.
-5. **Soumettez une Pull Request**.
+## **🛠️ Contribuer à Red Hunter3**
+
+**Red Hunter3** est un projet **open source** et **collaboratif**. Vous pouvez participer de plusieurs manières :
+
+- **💻 Contribuer au Code** :
+  - Forkez notre dépôt sur [GitHub](https://github.com/benzo123R3/RedHunter3) et soumettez vos **pull requests** pour proposer des améliorations ou des corrections.
+
+- **📝 Rapporter des Bugs** :
+  - Utilisez les **issues** sur GitHub pour signaler des bugs ou des problèmes.
+
+- **💬 Discuter avec la Communauté** :
+  - Rejoignez nos **forums** et **chats** pour échanger des idées, poser des questions et obtenir des conseils.
+
+- **📚 Documenter** :
+  - Aidez à améliorer la **documentation** en soumettant des suggestions ou des corrections.
 
 ---
 
-## **Support et Contact** 📬
-Pour toute assistance, contactez-nous à [support@redhunter.com](mailto:support@redhunter.com) ou ouvrez une **issue** sur notre [GitHub](https://github.com/benzo123R3/redhunter/issues).
+## **📞 Service Clients et Support**
+
+Nous nous engageons à offrir un excellent service client. Pour toute question ou demande de support, veuillez utiliser les options suivantes :
+
+- **Email** : [contact@redhunter3.com](mailto:contact@redhunter3.com) 📧
+- **Formulaire de Contact** : [Formulaire de contact](https://redhunter3.com/contact) 📝
+- **Chat en Ligne** : Disponible sur notre site web pour une assistance instantanée 💬
 
 ---
 
-**Déclenchez le futur de la sécurité web avec **Red Hunter**. Téléchargez maintenant et soyez à la pointe de la détection de vulnérabilités !**
+## **🔒 Exigences**
+
+### **Windows** 🪟 :
+- Installer Python avec les options PATH.
+- Compatible avec **Windows 10 & 11**.
+
+### **Linux** 🐧 :
+- Dernière version de Python.
+- Version récente de Linux.
+
+---
+
+## **⏳ Installation**
+
+1. Téléchargez le fichier **Red Hunter3.zip**.
+2. Extrayez le dossier.
+3. Exécutez **Setup.bat** ou **Setup.py**.
+
+**OU**
+
+1. Ouvrez un terminal.
+2. Tapez `git clone https://github.com/benzo123R3/RedHunter3.git`
+3. Tapez `cd RedHunter3`
+4. Tapez `git pull`
+5. Tapez `python Setup.py`
+
+---
+
+## **⚠️ Conditions d'utilisation**
+
+**Red Hunter3** est destiné à un **usage éducatif** uniquement. Toute utilisation est sous la responsabilité **exclusive** de l'utilisateur. Ce projet est conçu pour l'apprentissage et non pour des activités illégales.
+
+---
+
+## **💰 Donations**
+
+Soutenez le développement de **Red Hunter3** :
+
+- **Bitcoin** : `1MSRzopmhasr9ByHBrksScqv6wByVagDKe`
+- **Litecoin** : `LXXnPk5hbUxNomJixbysoikZSv6QAiQyVQ`
+
+---
+
+## **🔗 Crédits**
+
+- **Discord** 🗣️
+- **Telegram** 💬
+- **Site Web** 🌐
+
+**Créateur** : benzo123R3  
+**Version** : 1.0
