@@ -1,175 +1,175 @@
 # **Red Hunter3** 🚀🔍
-## **📜 LISEZ-MOI**
+## **📜 READ ME**
 
-### **Licence** ⚠️
+### **License** ⚠️
 
-**IMPORTANT** : **Red Hunter3** est destiné **uniquement à des fins éducatives**. Veuillez vous conformer aux lois en vigueur dans votre pays. L'utilisation de cet outil pour des activités illégales est strictement interdite. Vous êtes entièrement responsable de son utilisation.
+**IMPORTANT**: **Red Hunter3** is intended **only for educational purposes**. Please comply with the laws of your country. The use of this tool for illegal activities is strictly prohibited. You are solely responsible for its use.
 
 ---
 
-⭐ **Appréciez notre travail ? Offrez-nous une étoile pour soutenir le projet !** ⭐
+⭐ **Enjoy our work? Give us a star to support the project!** ⭐
 
 ## **📝 Description**
 
-**Red Hunter3** est un **outil de sécurité web** puissant et innovant, développé en **Python** 🐍, conçu pour offrir une analyse approfondie des vulnérabilités des sites web. Grâce à ses fonctionnalités avancées et son interface intuitive, il facilite la détection des failles et le renforcement de la sécurité de vos sites.
+**Red Hunter3** is a powerful and innovative **web security** tool developed in **Python** 🐍, designed for comprehensive vulnerability analysis of websites. With its advanced features and intuitive interface, it facilitates detecting vulnerabilities and strengthening your site's security.
 
-- **Multiplateforme** : Fonctionne sur **Windows** 🪟 et **Linux** 🐧.
-- **Open Source** : Code source accessible pour vérification et personnalisation 🌐.
-- **Sécurisé** : Aucune présence de malware ou backdoor 🛡️.
-- **Mises à jour fréquentes** 🔄 : Intégration continue des dernières méthodes de sécurité.
-- **Gratuit** : Accessible à tous sans frais.
-
----
-
-## **✨ Fonctionnalités Avancées**
-
-### **🔍 Analyse Complète des Vulnérabilités**
-
-- **Scan de Vulnérabilités Web** 🌐 :
-  - **Injection SQL** : Détection des failles permettant l'exécution de requêtes non sécurisées.
-  - **Cross-Site Scripting (XSS)** : Identification des vulnérabilités permettant l'exécution de scripts malveillants.
-  - **Failles de Sécurité** : Détection des erreurs de configuration et des problèmes d'authentification.
-
-- **Scan de Ports et Services** 🚪 :
-  - Identification des ports ouverts et des services actifs pour détecter les vecteurs d'attaque potentiels.
-
-- **Analyse des Cookies et Sessions** 🍪 :
-  - Vérification des paramètres de sécurité des cookies et des sessions pour détecter les failles potentielles.
-
-### **🛡️ Tests de Sécurité Avancés**
-
-- **Tests d'Injection SQL** 🔍 :
-  - Analyse approfondie pour détecter les vulnérabilités SQL et fournir des recommandations pour renforcer les bases de données.
-
-- **Analyse des Failles XSS** 🧪 :
-  - Détection des failles Cross-Site Scripting et des vulnérabilités associées aux scripts injectés.
-
-- **Analyse des Configurations de Sécurité** 🔧 :
-  - Vérification des configurations du serveur web pour identifier les erreurs de configuration.
-
-- **Analyse de l'Authentification** 🔐 :
-  - Vérification de la robustesse des mécanismes d'authentification et de gestion des sessions.
-
-### **📊 Rapports Dynamiques et Personnalisables**
-
-- **Rapports Détaillés** 📄 :
-  - Génération de rapports complets avec des descriptions détaillées des vulnérabilités, les risques associés et les recommandations pour remédier aux problèmes.
-
-- **Formats d'Exportation** 📥 :
-  - Exportation des résultats en **PDF**, **HTML**, et **JSON** pour une consultation facile et un partage efficace.
-
-- **Tableaux de Bord Interactifs** 📊 :
-  - Visualisation graphique des vulnérabilités détectées et des statistiques pour une analyse rapide et intuitive.
-
-- **Comparaison de Rapports** 🔄 :
-  - Comparaison des résultats de différents scans pour évaluer les améliorations ou détecter de nouvelles vulnérabilités.
-
-### **🔄 Modes de Scan Avancés**
-
-- **Scan Complet** 🔍 :
-  - Analyse exhaustive de la sécurité du site web pour une évaluation globale.
-
-- **Scan Ciblé** 🎯 :
-  - Évaluation rapide des zones critiques spécifiées pour une analyse ciblée.
-
-- **Scan Furtif** 👻 :
-  - Mode discret pour minimiser la détection par les systèmes de surveillance.
-
-- **Scan Automatisé** 🔁 :
-  - Configuration pour des scans automatisés à des intervalles réguliers pour une surveillance continue.
-
-### **🛠️ Outils Complémentaires**
-
-- **Analyse des Interférences de Sécurité** 🛡️ :
-  - Détection et optimisation des interférences de sécurité pour une protection renforcée.
-
-- **Génération Automatisée de Rapports** 📈 :
-  - Création automatique de rapports après chaque scan pour une documentation facile et rapide.
-
-- **Alertes en Temps Réel** 🚨 :
-  - Notifications instantanées pour les vulnérabilités critiques détectées afin de réagir rapidement.
-
-- **Analyse de la Surface d'Attaque** 🌍 :
-  - Identification des vecteurs d'attaque en examinant la surface d'attaque globale du site web.
+- **Cross-Platform**: Works on **Windows** 🪟 and **Linux** 🐧.
+- **Open Source**: Source code available for verification and customization 🌐.
+- **Secure**: No malware or backdoors 🛡️.
+- **Frequent Updates** 🔄: Continuous integration of the latest security methods.
+- **Free**: Available to everyone at no cost.
 
 ---
 
-## **🛠️ Contribuer à Red Hunter3**
+## **✨ Advanced Features**
 
-**Red Hunter3** est un projet **open source** et **collaboratif**. Vous pouvez participer de plusieurs manières :
+### **🔍 Comprehensive Vulnerability Analysis**
 
-- **💻 Contribuer au Code** :
-  - Forkez notre dépôt sur [GitHub](https://github.com/benzo123R3/RedHunter3) et soumettez vos **pull requests** pour proposer des améliorations ou des corrections.
+- **Web Vulnerability Scanning** 🌐:
+  - **SQL Injection**: Detection of vulnerabilities allowing execution of unsafe queries.
+  - **Cross-Site Scripting (XSS)**: Identification of vulnerabilities that enable malicious script execution.
+  - **Security Flaws**: Detection of configuration errors and authentication issues.
 
-- **📝 Rapporter des Bugs** :
-  - Utilisez les **issues** sur GitHub pour signaler des bugs ou des problèmes.
+- **Port and Service Scanning** 🚪:
+  - Identification of open ports and active services to detect potential attack vectors.
 
-- **💬 Discuter avec la Communauté** :
-  - Rejoignez nos **forums** et **chats** pour échanger des idées, poser des questions et obtenir des conseils.
+- **Cookie and Session Analysis** 🍪:
+  - Check security settings of cookies and sessions to detect potential weaknesses.
 
-- **📚 Documenter** :
-  - Aidez à améliorer la **documentation** en soumettant des suggestions ou des corrections.
+### **🛡️ Advanced Security Testing**
+
+- **SQL Injection Testing** 🔍:
+  - In-depth analysis to detect SQL vulnerabilities and provide recommendations for database hardening.
+
+- **XSS Vulnerability Analysis** 🧪:
+  - Detection of Cross-Site Scripting flaws and vulnerabilities related to injected scripts.
+
+- **Security Configuration Analysis** 🔧:
+  - Verification of web server configurations to identify configuration errors.
+
+- **Authentication Analysis** 🔐:
+  - Checking the robustness of authentication mechanisms and session management.
+
+### **📊 Dynamic and Customizable Reports**
+
+- **Detailed Reports** 📄:
+  - Generation of comprehensive reports with detailed descriptions of vulnerabilities, associated risks, and remediation recommendations.
+
+- **Export Formats** 📥:
+  - Export results in **PDF**, **HTML**, and **JSON** for easy review and effective sharing.
+
+- **Interactive Dashboards** 📊:
+  - Graphical visualization of detected vulnerabilities and statistics for quick and intuitive analysis.
+
+- **Report Comparison** 🔄:
+  - Compare results from different scans to assess improvements or detect new vulnerabilities.
+
+### **🔄 Advanced Scanning Modes**
+
+- **Full Scan** 🔍:
+  - Exhaustive analysis of website security for a comprehensive assessment.
+
+- **Targeted Scan** 🎯:
+  - Rapid assessment of specified critical areas for focused analysis.
+
+- **Stealth Scan** 👻:
+  - Discreet mode to minimize detection by monitoring systems.
+
+- **Automated Scan** 🔁:
+  - Configuration for automated scans at regular intervals for continuous monitoring.
+
+### **🛠️ Additional Tools**
+
+- **Security Interference Analysis** 🛡️:
+  - Detection and optimization of security interferences for enhanced protection.
+
+- **Automated Report Generation** 📈:
+  - Automatic creation of reports after each scan for easy and rapid documentation.
+
+- **Real-Time Alerts** 🚨:
+  - Instant notifications for critical vulnerabilities detected to react swiftly.
+
+- **Attack Surface Analysis** 🌍:
+  - Identification of attack vectors by examining the overall attack surface of the website.
 
 ---
 
-## **📞 Service Clients et Support**
+## **🛠️ Contributing to Red Hunter3**
 
-Nous nous engageons à offrir un excellent service client. Pour toute question ou demande de support, veuillez utiliser les options suivantes :
+**Red Hunter3** is an **open source** and **collaborative** project. You can contribute in various ways:
 
-- **Email** : [contact@redhunter3.com](mailto:contact@redhunter3.com) 📧
-- **Formulaire de Contact** : [Formulaire de contact](https://redhunter3.com/contact) 📝
-- **Chat en Ligne** : Disponible sur notre site web pour une assistance instantanée 💬
+- **💻 Contribute Code**:
+  - Fork our repository on [GitHub](https://github.com/benzo123R3/RedHunter3) and submit **pull requests** to propose improvements or fixes.
+
+- **📝 Report Bugs**:
+  - Use **issues** on GitHub to report bugs or problems.
+
+- **💬 Discuss with the Community**:
+  - Join our **forums** and **chats** to exchange ideas, ask questions, and get advice.
+
+- **📚 Document**:
+  - Help improve the **documentation** by submitting suggestions or corrections.
 
 ---
 
-## **🔒 Exigences**
+## **📞 Customer Service and Support**
 
-### **Windows** 🪟 :
-- Installer Python avec les options PATH.
-- Compatible avec **Windows 10 & 11**.
+We are committed to providing excellent customer service. For any questions or support requests, please use the following options:
 
-### **Linux** 🐧 :
-- Dernière version de Python.
-- Version récente de Linux.
+- **Email**: [contact@redhunter3.com](mailto:contact@redhunter3.com) 📧
+- **Contact Form**: [Contact Form](https://redhunter3.com/contact) 📝
+- **Live Chat**: Available on our website for instant assistance 💬
+
+---
+
+## **🔒 Requirements**
+
+### **Windows** 🪟:
+- Install Python with PATH options.
+- Compatible with **Windows 10 & 11**.
+
+### **Linux** 🐧:
+- Latest version of Python.
+- Recent version of Linux.
 
 ---
 
 ## **⏳ Installation**
 
-1. Téléchargez le fichier **Red Hunter3.zip**.
-2. Extrayez le dossier.
-3. Exécutez **Setup.bat** ou **Setup.py**.
+1. Download the **Red Hunter3.zip** file.
+2. Extract the folder.
+3. Run **Setup.bat** or **Setup.py**.
 
-**OU**
+**OR**
 
-1. Ouvrez un terminal.
-2. Tapez `git clone https://github.com/benzo123R3/RedHunter3.git`
-3. Tapez `cd RedHunter3`
-4. Tapez `git pull`
-5. Tapez `python Setup.py`
+1. Open a terminal.
+2. Type `git clone https://github.com/benzo123R3/RedHunter3.git`
+3. Type `cd RedHunter3`
+4. Type `git pull`
+5. Type `python Setup.py`
 
 ---
 
-## **⚠️ Conditions d'utilisation**
+## **⚠️ Terms of Use**
 
-**Red Hunter3** est destiné à un **usage éducatif** uniquement. Toute utilisation est sous la responsabilité **exclusive** de l'utilisateur. Ce projet est conçu pour l'apprentissage et non pour des activités illégales.
+**Red Hunter3** is intended for **educational use** only. Any use is under the **exclusive** responsibility of the user. This project is designed for learning purposes and not for illegal activities.
 
 ---
 
 ## **💰 Donations**
 
-Soutenez le développement de **Red Hunter3** :
+Support the development of **Red Hunter3**:
 
-- **Bitcoin** : `1MSRzopmhasr9ByHBrksScqv6wByVagDKe`
-- **Litecoin** : `LXXnPk5hbUxNomJixbysoikZSv6QAiQyVQ`
+- **Bitcoin**: `1MSRzopmhasr9ByHBrksScqv6wByVagDKe`
+- **Litecoin**: `LXXnPk5hbUxNomJixbysoikZSv6QAiQyVQ`
 
 ---
 
-## **🔗 Crédits**
+## **🔗 Credits**
 
 - **Discord** 🗣️
 - **Telegram** 💬
-- **Site Web** 🌐
+- **Website** 🌐
 
-**Créateur** : benzo123R3  
-**Version** : 1.0
+**Creator**: benzo123R3  
+**Version**: 1.0
