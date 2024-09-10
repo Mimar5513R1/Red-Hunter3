@@ -14,8 +14,8 @@
 **Red Hunter3** est un **outil de sécurité web** puissant et innovant, développé en **Python** 🐍, conçu pour offrir une analyse approfondie des vulnérabilités des sites web. Grâce à ses fonctionnalités avancées et son interface intuitive, il facilite la détection des failles et le renforcement de la sécurité de vos sites.
 
 - **Multiplateforme** : Fonctionne sur **Windows** 🪟 et **Linux** 🐧.
-- **Open Source** : Code source accessible pour vérification et personnalisation.
-- **Sécurisé** : Aucune présence de malware ou backdoor.
+- **Open Source** : Code source accessible pour vérification et personnalisation 🌐.
+- **Sécurisé** : Aucune présence de malware ou backdoor 🛡️.
 - **Mises à jour fréquentes** 🔄 : Intégration continue des dernières méthodes de sécurité.
 - **Gratuit** : Accessible à tous sans frais.
 
