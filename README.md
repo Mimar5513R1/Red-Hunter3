@@ -1,5 +1,4 @@
 # **Red Hunter3** 🚀🔍
-(https://images.app.goo.gl/EjUjzzgzp58JprNCA)
 ## **📜 LISEZ-MOI**
 
 ### **Licence** ⚠️
